@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P0331_SharedPreferences</string>
+    <string name="Save">Save</string>
+    <string name="Load">Load</string>
+</resources>

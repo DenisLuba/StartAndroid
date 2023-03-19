@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">P0481_SimpleAdapter</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="textview">TextView</string>
+
+    <string-array name="texts">
+        <item>some text 1</item>
+        <item>some text 2</item>
+        <item>some text 3</item>
+        <item>some text 4</item>
+        <item>some text 5</item>
+    </string-array>
+    <string-array name="checked">
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+</resources>

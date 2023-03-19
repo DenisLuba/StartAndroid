@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P0411_LayoutInflaterList</string>
+    <string name="staff_list">Staff list</string>
+    <string name="textview">TextView</string>
+</resources>

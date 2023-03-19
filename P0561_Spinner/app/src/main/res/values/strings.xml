@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P0561_Spinner</string>
+
+    <string-array name="data">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+    </string-array>
+</resources>

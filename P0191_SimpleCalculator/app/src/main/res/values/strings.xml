@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P0191_SimpleCalculator</string>
+    <string name="divide">/</string>
+    <string name="multiply">*</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="number_1">Number 1</string>
+    <string name="number_2">Number 2</string>
+    <string name="divide_by_zero">Dividing by zero is prohibited</string>
+</resources>

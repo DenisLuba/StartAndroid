@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">P0461_ExpandableListEvents</string>
+
+    <string-array name="groups">
+        <item>HTC</item>
+        <item>Samsung</item>
+        <item>LG</item>
+    </string-array>
+
+    <string-array name="phoneHTC">
+        <item>Sensation</item>
+        <item>Desire</item>
+        <item>Wildfire</item>
+        <item>Hero</item>
+    </string-array>
+
+    <string-array name="phoneSamsung">
+        <item>Galaxy S II</item>
+        <item>Galaxy Nexus</item>
+        <item>Wave</item>
+    </string-array>
+
+    <string-array name="phoneLG">
+        <item>Optimus</item>
+        <item>Optimus Link</item>
+        <item>Optimus Black</item>
+        <item>Optimus One</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P0551_HeaderFooter</string>
+    <string name="header_title">Header</string>
+    <string name="footer_title">Footer</string>
+    <string name="button_text">Header</string>
+
+    <string-array name="data">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+    </string-array>
+</resources>

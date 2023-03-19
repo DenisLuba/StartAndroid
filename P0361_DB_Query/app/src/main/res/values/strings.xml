@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P0361_DB_Query</string>
+    <string name="directory_of_countries">Справочник стран</string>
+    <string name="all_entries">Все записи</string>
+    <string name="function">Функция</string>
+    <string name="people">Население</string>
+    <string name="population_in_the_region">Население в регионе</string>
+    <string name="sort">Сортировка</string>
+    <string name="name">Наименование</string>
+    <string name="region">Регион</string>
+</resources>

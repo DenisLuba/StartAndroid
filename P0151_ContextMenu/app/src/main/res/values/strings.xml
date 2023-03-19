@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">P0151_ContextMenu</string>
+
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+
+    <string name="menu_size_20">Size 20</string>
+    <string name="menu_size_24">Size 24</string>
+    <string name="menu_size_28">Size 28</string>
+
+    <string name="tvColor">Text Color</string>
+    <string name="tvSize">Text Size</string>
+
+    <string name="setRedColor">Text color is red</string>
+    <string name="setGreenColor">Text color is green</string>
+    <string name="setBlueColor">Text color is blue</string>
+
+    <string name="setSize_20">Text size is 20</string>
+    <string name="setSize_24">Text size is 24</string>
+    <string name="setSize_28">Text size is 28</string>
+
+</resources>

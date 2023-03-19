@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P0051_LayoutFile</string>
+    <string name="myscreen">Этот экран описан не в activity_main.xml, а в myscreen.xml</string>
+    <string name="hello_world">Any text!</string>
+</resources>

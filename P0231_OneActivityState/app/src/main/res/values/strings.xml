@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P0231_OneActivityState</string>
+    <string name="go_to_activity_two">Go to Activity two</string>
+    <string name="go_to_three_activity">Go to three activity</string>
+    <string name="go_to_main_activity">Go to Main activity</string>
+    <string name="go_to_two_activity">Go to two activity</string>
+</resources>

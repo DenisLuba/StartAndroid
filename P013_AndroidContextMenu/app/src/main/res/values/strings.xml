@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P013_AndroidContextMenu</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_item1">Item 1</string>
+    <string name="action_item2">Item 2</string>
+    <string name="action_item3">Item 3</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">P0301_ActivityResult</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="color">Color</string>
+    <string name="alignment">Alignment</string>
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="right">Right</string>
+    <string name="center">Center</string>
+    <string name="left">Left</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P0211_TwoActivity</string>
+    <string name="go_to_activity_two">Go to activity two</string>
+    <string name="this_is_activity_two">This is Activity Two</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">P0531_SimpleCursorTreeAdapter</string>
+
+    <string-array name="companies">
+        <item>HTC</item>
+        <item>Samsung</item>
+        <item>LG</item>
+    </string-array>
+
+    <string-array name="phonesHTC">
+        <item>Sensation</item>
+        <item>Desire</item>
+        <item>"Wildfire</item>
+        <item>Hero</item>
+    </string-array>
+
+    <string-array name="phonesSamsung">
+        <item>Galaxy S II</item>
+        <item>Galaxy Nexus</item>
+        <item>Wave</item>
+    </string-array>
+
+    <string-array name="phonesLG">
+        <item>Optimus</item>
+        <item>Optimus Link</item>
+        <item>Optimus Black</item>
+        <item>Optimus One</item>
+    </string-array>
+</resources>
