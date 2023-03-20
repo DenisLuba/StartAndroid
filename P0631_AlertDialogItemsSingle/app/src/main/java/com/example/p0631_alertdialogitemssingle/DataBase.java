@@ -2,6 +2,7 @@ package com.example.p0631_alertdialogitemssingle;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -12,7 +13,7 @@ public class DataBase {
     private static final String DB_NAME = "myDatabase";
     private static final String DB_TABLE = "myTable";
     private static final String COLUMN_ID = "_id";
-    private static final String COLUMN_TEXT = "text";
+    public static final String COLUMN_TEXT = "text";
     private static final String CREATE_TABLE = "CREATE TABLE " + DB_TABLE + "(" +
             COLUMN_ID + " INTEGER PRIMARY KEY, " +
             COLUMN_TEXT + " TEXT);";
@@ -34,6 +35,11 @@ public class DataBase {
 //    закрыть подключение
     public void close() {
         if (dataBaseHelper != null) dataBaseHelper.close();
+    }
+
+//    получить cursor на все данные из таблицы DB_TABLE
+    public Cursor getCursor() {
+        return database.query(DB_TABLE, null, null, null, null, null, null);
     }
 
     private static class DataBaseHelper extends SQLiteOpenHelper {
