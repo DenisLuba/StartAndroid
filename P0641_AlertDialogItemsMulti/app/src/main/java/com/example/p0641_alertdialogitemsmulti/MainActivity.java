@@ -41,8 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        boolean[] массив из ресурсов
         data = getResources().getStringArray(R.array.data);
+
+//        boolean[] массив из ресурсов
         Boolean[] checkedArray = Arrays.stream(getResources().getStringArray(R.array.checked))
                 .map(Boolean::valueOf)
                 .toArray(Boolean[]::new);
