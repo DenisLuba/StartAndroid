@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">P0661_AlertDialogOperations</string>
+    <string name="dialog">Диалог</string>
 </resources>
