@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">P0671_ProgressDialog</string>
+    <string name="horizontal">Горизонтальный</string>
+    <string name="ordinary">Обычный</string>
 </resources>
