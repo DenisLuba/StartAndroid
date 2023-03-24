@@ -27,4 +27,5 @@
 **/res/d*/
 **/res/m*/
 **/res/values-night/
-**/res/xml/
+**/res/xml/backup_rules.xml
+**/res/xml/data_extraction_rules.xml
