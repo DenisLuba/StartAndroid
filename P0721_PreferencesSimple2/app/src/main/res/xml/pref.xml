@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="checkBox"
+        android:summary="Description of checkbox"
+        android:title="Checkbox" />
+    <ListPreference
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:key="list"
+        android:summary="Description of list"
+        android:title="List" />
+    <PreferenceScreen
+        android:key="screen"
+        android:summary="Description of screen"
+        android:title="Screen" >
+        <PreferenceCategory
+            android:key="category_1"
+            android:summary="Description of category 1"
+            android:title="Category 1">
+            <CheckBoxPreference
+                android:key="checkbox_1"
+                android:summary="Description of checkbox 1"
+                android:title="CheckBox 1" />
+            <CheckBoxPreference
+                android:key="checkbox_2"
+                android:summary="Description of checkbox 2"
+                android:title="CheckBox 2" />
+            <CheckBoxPreference
+                android:key="checkbox_3"
+                android:summary="Description of checkbox 3"
+                android:title="CheckBox 3" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="category_2"
+            android:summary="Description of category 2"
+            android:title="Category 2">
+            <CheckBoxPreference
+                android:key="checkbox_4"
+                android:summary="Description of checkbox 4"
+                android:title="CheckBox 4" />
+            <CheckBoxPreference
+                android:key="checkbox_5"
+                android:summary="Description of checkbox 5"
+                android:title="CheckBox 5" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>
