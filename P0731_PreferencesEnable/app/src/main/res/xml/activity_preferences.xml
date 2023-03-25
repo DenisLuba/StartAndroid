@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="checkbox1"
+        android:summaryOn="Description of checkbox 1 on"
+        android:summaryOff="Description of checkbox 1 off"
+        android:title="CheckBox 1" />
+    <ListPreference
+        android:key="list"
+        android:summary="Description of list"
+        android:title="List"
+        android:dependency="checkbox1"
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values" />
+    <CheckBoxPreference
+        android:key="checkbox2"
+        android:summary="Description of checkbox 2"
+        android:title="CheckBox 2" />
+    <PreferenceScreen
+        android:key="screen"
+        android:summary="Description of screen"
+        android:title="Screen"
+        android:dependency="checkbox2">
+        <CheckBoxPreference
+            android:key="checkbox3"
+            android:summary="Description of checkbox 3"
+            android:title="CheckBox 3" />
+        <PreferenceCategory
+            android:key="category1"
+            android:summary="Description of category 1"
+            android:title="Category 1">
+            <CheckBoxPreference
+                android:key="checkbox4"
+                android:summary="Description of checkbox 4"
+                android:title="CheckBox 4" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="category2"
+            android:summary="Description of category 2"
+            android:title="Category 2">
+            <CheckBoxPreference
+                android:key="checkbox5"
+                android:summary="Description of checkbox 5"
+                android:title="CheckBox 5" />
+            <CheckBoxPreference
+                android:key="checkbox6"
+                android:summary="Description of checkbox 6"
+                android:title="CheckBox 6" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>
