@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">P0781_TabContentFactory</string>
+    <string name="text_tab">Это создано с помощью LayoutInflater</string>
+</resources>
