@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         tabSpec.setIndicator("Вкладка 1");
 //        указываем id компонента из FrameLayout, он и станет содержимым
         tabSpec.setContent(R.id.tvTab1);
-//        добавляем в корневой элемент
         tabHost.addTab(tabSpec);
 
         tabSpec = tabHost.newTabSpec("tag2");
