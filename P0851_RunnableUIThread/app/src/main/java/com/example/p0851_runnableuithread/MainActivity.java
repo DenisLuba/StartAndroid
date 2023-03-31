@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import java.util.concurrent.TimeUnit;
 
-/*
+/**
  * Если алгоритмы не особо сложны,
  * можно использовать эти методы для выполнения кода в UI-потоке:
  *
