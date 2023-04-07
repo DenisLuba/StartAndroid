@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">P0951_ServiceBackPendingIntent</string>
+    <string name="start">Start</string>
+    <string name="task1">Task1</string>
+    <string name="task2">Task2</string>
+    <string name="task3">Task3</string>
+    <string name="task1start">Task1 start</string>
+    <string name="task2start">Task2 start</string>
+    <string name="task3start">Task3 start</string>
+    <string name="task1finish">Task1 finish, result = %s</string>
+    <string name="task2finish">Task2 finish, result = %s</string>
+    <string name="task3finish">Task3 finish, result = %s</string>
+</resources>
