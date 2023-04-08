@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="48dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/task1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyStyle" />
+
+        <TextView
+        android:id="@+id/task2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyStyle" />
+
+        <TextView
+        android:id="@+id/task3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyStyle" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:layout_gravity="center" />
+</LinearLayout>
