@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P0981_ServiceBindingLocal</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+</resources>
