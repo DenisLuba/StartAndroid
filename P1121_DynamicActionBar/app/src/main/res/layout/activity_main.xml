@@ -6,13 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchAdd_Delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/add_delete"
+        android:layout_marginTop="36dp"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintVertical_chainStyle="packed"
+
+        app:layout_constraintBottom_toTopOf="@+id/switchVisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchVisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/visible"
+        android:layout_marginTop="36dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnFragment"
+        app:layout_constraintStart_toStartOf="@+id/switchAdd_Delete"
+        app:layout_constraintTop_toBottomOf="@+id/switchAdd_Delete" />
+
+    <Button
+        android:id="@+id/btnFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment"
+        android:layout_marginTop="36dp"
+
+        app:layout_constraintStart_toStartOf="@+id/switchAdd_Delete"
+        app:layout_constraintTop_toBottomOf="@+id/switchVisible"
+        app:layout_constraintBottom_toTopOf="@id/content"/>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFragment">
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
