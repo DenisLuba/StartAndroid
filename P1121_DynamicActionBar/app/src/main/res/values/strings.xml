@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P1121_DynamicActionBar</string>
+    <string name="fragment1_text">Fragment 1</string>
+    <string name="fragment2_text">Fragment 2</string>
+    <string name="menu_item31">Item 31</string>
+    <string name="menu_item32">Item 32</string>
+</resources>

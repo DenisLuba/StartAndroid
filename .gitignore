@@ -25,8 +25,8 @@
 **/test/
 
 # res/ except layout/ and values/
-**/res/d*/
-**/res/m*/
+**/res/drawable*/
+**/res/mipmap*/
 **/res/values-night/
 **/res/xml/backup_rules.xml
 **/res/xml/data_extraction_rules.xml

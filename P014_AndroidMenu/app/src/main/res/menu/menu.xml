@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:icon="@android:drawable/ic_menu_manage"
+        android:id="@+id/action_settings"
+        android:orderInCategory="2"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@android:drawable/ic_dialog_email"
+        android:id="@+id/action_mail"
+        android:orderInCategory="1"
+        android:title="@string/mail"
+        app:showAsAction="ifRoom" />
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/action_item1"
+            android:orderInCategory="3"
+            android:title="@string/item1"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_item2"
+            android:orderInCategory="2"
+            android:title="@string/item2"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_item3"
+            android:orderInCategory="1"
+            android:title="@string/item3"
+            app:showAsAction="never" />
+    </group>
+</menu>
