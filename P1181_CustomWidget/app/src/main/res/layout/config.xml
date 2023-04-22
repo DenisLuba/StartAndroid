@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rgColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioCambridgeBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/cambridge_blue"
+            style="@style/MyStyle" />
+        <RadioButton
+            android:id="@+id/radioMelon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/melon"
+            style="@style/MyStyle"
+            android:background="@color/melon_color" />
+        <RadioButton
+            android:id="@+id/radioPaleDogwood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pale_dogwood"
+            style="@style/MyStyle"
+            android:background="@color/pale_dogwood_color" />
+        <RadioButton
+            android:id="@+id/radioSilver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/silver"
+            style="@style/MyStyle"
+            android:background="@color/silver_color" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etText"
+        android:padding="12dp"
+        style="@style/MyStyle"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_the_text"
+        android:autofillHints="name"
+        android:inputType="text">
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+
+</LinearLayout>

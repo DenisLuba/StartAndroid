@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P1181_CustomWidget</string>
+    <string name="widget_text">Text in widget</string>
+    <string name="widget_name">My second widget</string>
+    <string name="cambridge_blue">Cambridge blue</string>
+    <string name="melon">Melon</string>
+    <string name="pale_dogwood">Pale Dogwood</string>
+    <string name="silver">Silver</string>
+    <string name="ok">Ok</string>
+    <string name="enter_the_text">Enter the text</string>
+</resources>
