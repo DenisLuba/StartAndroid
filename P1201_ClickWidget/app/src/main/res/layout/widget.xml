@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FFF"
+        android:textColor="#000"
+        android:id="@+id/tvTime" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FFF"
+        android:textColor="#000"
+        android:id="@+id/tvCount" />
+    <TextView
+        style="@style/MyStyle"
+        android:background="#66FF0000"
+        android:text="@string/config"
+        android:id="@+id/tvPressConfig" />
+    <TextView
+        style="@style/MyStyle"
+        android:background="#6600FF00"
+        android:text="@string/update"
+        android:id="@+id/tvPressUpdate" />
+    <TextView
+        style="@style/MyStyle"
+        android:background="#660000FF"
+        android:text="@string/count"
+        android:id="@+id/tvPressCount" />
+
+</LinearLayout>
